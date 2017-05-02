@@ -8,7 +8,7 @@ import sys
 from io import open
 from setuptools import setup
 
-name = 'pyramid-restful-framework-jsonapi'
+name = 'prf-jsonapi'
 package = 'prf_jsonapi'
 description = 'JSONAPI support for Pryamid Restful Framework'
 url = 'https://github.com/danpoland/prf-jsonapi'
@@ -18,7 +18,6 @@ install_requires = [
     'pyramid-restful-framework',
     'marshmallow-jsonapi',
 ]
-
 tests_require = [
     'WebTest >= 1.3.1',  # py3 compat
     'pytest'
